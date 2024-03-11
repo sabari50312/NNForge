@@ -131,7 +131,7 @@
           <li
             class="list-items layer btn btn-light"
             data-inputshape="224,224,3"
-            data-activation="RelU"
+            data-activation="relu"
             data-layertype="Input"
           >
             Input
@@ -147,8 +147,11 @@
       <pre
         class="code-container"
       ><code id="code-content">import tensorflow as tf
-import keras
-from keras.layers import Input, Conv2D, MaxPooling2D, Flatten, Dense</code></pre>
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Input, Conv2D, MaxPooling2D, Flatten, Dense
+
+# Initialize the model
+model = Sequential()</code></pre>
     </div>
 
     <script src="pyCodeGenerator.js"></script>

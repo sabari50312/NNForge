@@ -3,7 +3,7 @@ function generateInput(input) {
   let activation = input["activation"];
   let layer = input["layertype"];
 
-  let code = `model.add(${layer}(shape=(${inputShape}), activation='${activation}')\n`;
+  let code = `model.add(${layer}(shape=(${inputShape}), activation='${activation}'))\n`;
   // console.log(code);
   return code;
 }
@@ -24,7 +24,7 @@ function generateConv2D(conv2D) {
   let activation = conv2D["activation"];
   let layer = conv2D["layertype"];
 
-  let code = `model.add(${layer}(filters=${filters}, kernel_size=(${kernelSize}), activation='${activation}')\n`;
+  let code = `model.add(${layer}(filters=${filters}, kernel_size=(${kernelSize}), activation='${activation}'))\n`;
   // console.log(code);
   return code;
 }

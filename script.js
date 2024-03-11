@@ -170,7 +170,7 @@ function deleteLayer(e) {
 function generatePythonCode() {
   let architecture = document.querySelectorAll(".architecture > ul > li");
   let code =
-    "import tensorflow as tf\nimport keras\nfrom keras.layers import Input, Conv2D, MaxPooling2D, Flatten, Dense\n\n";
+    "import tensorflow as tf\nfrom tensorflow.keras.models import Sequential\nfrom tensorflow.keras.layers import Input, Conv2D, MaxPooling2D, Flatten, Dense\n\n# Initialize the model\nmodel = Sequential()\n\n";
   architecture.forEach((layer) => {
     let layerData = layer.dataset;
     switch (layerData["layertype"]) {
