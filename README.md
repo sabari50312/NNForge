@@ -14,9 +14,8 @@ NN Forge is a web application that empowers you to create neural network archite
 
 ## Installation
 
-NN Forge is a web application, so no installation is required! Simply visit the following URL to get started:
-
-[Link to your deployed web application]
+NN Forge is a web application, so no installation is required! Simply visit the following URL to get started:  
+[NNForge](https://sabari50312.github.io/NNForge/)
 
 ## Features
 
@@ -31,7 +30,7 @@ NN Forge is a web application, so no installation is required! Simply visit the 
 1. Visit the NN Forge website.
 2. Design your neural network architecture using the GUI.
 3. Configure hyperparameters and other settings for each layer.
-4. Click the "Generate Python Code" button.
+4. Click the "Generate" button.
 5. Copy and paste the generated code into your Python project.
 
 ## Contributing
