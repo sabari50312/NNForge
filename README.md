@@ -2,6 +2,8 @@
 
 Welcome to NN Forge!
 
+![image](https://github.com/sabari50312/NNForge/assets/73357431/637aa38e-1109-4b8f-9ec5-50e437a7acc4)
+
 NN Forge is a web application that empowers you to create neural network architectures using a user-friendly graphical interface (GUI) and automatically generate the corresponding Python code for them.
 
 ## Table of Contents
